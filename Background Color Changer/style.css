@@ -1,0 +1,54 @@
+/* General Button Styling */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button 1 - Blue */
+.btn-primary {
+    background-color: red;
+    color: white;
+}
+
+
+/* Button 2 - Green */
+.btn-success {
+    background-color: blue;
+    color: white;
+}
+
+
+
+/* Button 3 - Red */
+.btn-danger {
+    background-color:yellow;
+    color: white;
+}
+
+
+
+/* Button 4 - Yellow */
+.btn-warning {
+    background-color: pink;
+    color: black;
+}
+
+
+/* Button 5 - Cyan */
+.btn-info {
+    background-color: black;
+    color: white;
+}
+
+
+
+/* Container Styling */
+div {
+    text-align: center;
+    padding: 20px;
+}
