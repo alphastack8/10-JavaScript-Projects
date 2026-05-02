@@ -1,0 +1,32 @@
+body {
+    background: radial-gradient(circle, #1b2735 0%, #090a0f 100%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.zodiac-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    width: 350px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.symbol { font-size: 4rem; color: #ffd700; margin: 15px 0; }
+#zTraits { font-style: italic; color: #ccc; }
+.hidden { display: none; }
